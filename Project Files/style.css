@@ -1,0 +1,98 @@
+*{
+         margin: 0;
+         padding: 0;
+         }
+         body{
+         width: 100%;
+         height: 100%;
+         }
+         #container{
+         position: relative;
+         height: 100%;
+         width: 100%;
+         }
+         #nav{
+         position: relative;
+         width: 100%;
+         height: 15%;
+         background-image: linear-gradient(to right, #aeb20e , black);
+         }
+         #logo{
+         width: 35%;
+         }
+         #logout{
+         float: right;
+         width: 5%;
+         position: relative;
+         margin: 4% 4% 0 0 ;
+         font-size: 11pt;
+         }
+
+         footer {
+		    display: block;
+		    position: relative;
+		    width: 100%;
+		    background-color: #dbdb0d;
+		    text-align: center;
+		    height: 7vh;
+			
+			  bottom: 0;
+			  width: 100%;
+			  height: 50px;
+			  clear: both;
+			}
+	
+
+
+
+
+
+			div#sidenav {
+			float: left;
+		    position: relative;
+		    height: 100vh;
+		    background-color: white; 
+		    width: 20%;
+		    text-align: center;
+		}
+
+		a.side_link {
+		     display: block;
+		     padding: 10% 0;
+		     width: 100%;
+		     vertical-align: middle; 
+
+		}
+
+		a.side_link:link {
+		    text-decoration: none;
+		    color: red;
+		}
+
+		a.side_link:hover {
+		    color: black;
+		    background-color: #3a74bc;
+		}
+
+		a {
+		    transition: all .5s;
+		    /*display: block;*/
+		}
+
+
+
+		a.side_link:before {
+
+		    /*background-image:    url("https://www.freeiconspng.com/uploads/go-back--gallery-for--marketing-icon-png-23.png");*/
+		    background-image:    url("marketingsign.png");
+		    
+		    background-size: 35px 35px;
+		    display: inline-block;
+		    background-repeat:no-repeat;
+		    width: 35px; 
+		    height: 35px;
+		    content:"";
+		    position:relative;
+		    top:7px;
+		    padding-right:10px;
+		}
